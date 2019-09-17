@@ -1,0 +1,37 @@
+{
+  "name": "CZMall",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "16.8.3",
+    "react-native": "0.59.8",
+    "react-native-atoz-listview": "^0.0.7",
+    "react-native-elements": "^1.2.0",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-largelist-v3": "^3.0.14",
+    "react-native-page-control": "^1.1.1",
+    "react-native-refresh-list-view": "^1.0.10",
+    "react-native-scrollable-tab-view": "^0.10.0",
+    "react-native-search-box": "^0.0.19",
+    "react-native-spring-scrollview": "^2.0.22",
+    "react-native-swiper": "^1.5.14",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^3.12.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/runtime": "^7.5.5",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
