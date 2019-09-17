@@ -12,5 +12,4 @@ export default class CZMall extends PureComponent<{}> {
     );
   }
 }
-
 AppRegistry.registerComponent('CZMall', () => CZMall);
