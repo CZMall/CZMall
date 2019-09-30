@@ -32,6 +32,7 @@ class MineViewCell extends PureComponent<Props>  {
         super(props)
     }
 
+
     render() {
         let {
             mineViewInfos,
@@ -44,9 +45,10 @@ class MineViewCell extends PureComponent<Props>  {
                     key={info.title}
                     title={info.title}
                     icon={info.icon}
-                    onPress={() => {
+                   /* onPress={() => {
                         onMineViewSelected && onMineViewSelected(i)
-                    }}
+                    }}*/
+                    onPress={()=>this.props.onPress()}
                 />
             )
         )

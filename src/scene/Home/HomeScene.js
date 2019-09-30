@@ -77,7 +77,7 @@ class HomeScene extends PureComponent<Props, State> {
           title='西安'
           titleStyle={{ color: commonStyle.white }}
           onPress={() => {
-
+            navigation.navigate("City")
           }}
       />
     ),
@@ -194,6 +194,7 @@ class HomeScene extends PureComponent<Props, State> {
             <TextInput
                 keyboardType='web-search'
                 placeholder='搜索药品找药'
+                onFocus={()=>this.props.navigation.navigate('Search')}
                 style={styles.inputText}
                 underlineColorAndroid='transparent' />
             <Image source={LocalImg.voice_icon} style={styles.voiceIcon}/>
@@ -280,7 +281,6 @@ class HomeScene extends PureComponent<Props, State> {
         //   component: '',
         //   args: {}
         // })
-        alert(i)
       }
       return (<PharmacyCell {...item} key={i}/>)
     })
@@ -300,7 +300,8 @@ class HomeScene extends PureComponent<Props, State> {
 
   //主菜单
   onMenuSelected = (index: number) => {
-    alert(index)
+    if(index == 0){this.props.navigation.navigate('Scan')}
+    if(index == 1){ this.props.navigation.navigate('Prescription')}
   }
 
   //疾病分类

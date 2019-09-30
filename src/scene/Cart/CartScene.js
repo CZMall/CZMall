@@ -14,16 +14,21 @@ import {
     TouchableOpacity,
     Image,
     StyleSheet,
-    SectionList
+    SectionList,
+    Alert,
+    ImageBackground,
+    Modal,
+Dimensions
 } from 'react-native'
 import api from '../../api'
+import { ListItem,Icon,Button} from 'react-native-elements';
 import {commonStyle} from '../../widget/commonStyle'
+const {height,width} =  Dimensions.get('window');
 import {
     SpacingView,
 } from '../../widget';
-import {ListItem} from 'react-native-elements'
 import LocalImg from '../../common/commonImages';
-
+import {Cart, main} from "../../common/image/Image";
 class CartScene extends PureComponent {
     constructor(props) {
         super(props)
@@ -33,10 +38,22 @@ class CartScene extends PureComponent {
             status: [],
             isSelectedAllItem: false,
             totalNum: 0,
-            totalPrice: 0.00
+            totalPrice: 0.00,
+            modalVisible:false
         }
     }
-
+    static navigationOptions = ({ navigation }) => ({
+        headerTitle: '购物车',
+        headerStyle:{
+            backgroundColor:'#5FA9FF'
+        },
+        headerTitleStyle:{
+            flex:1,
+            textAlign: 'center',
+            fontSize:16,
+            color:'#fff',
+        }
+    })
     componentWillMount() {
         let dataArr = api.shopCart
         let tempStatusArr = []
@@ -199,33 +216,36 @@ class CartScene extends PureComponent {
                            resizeMode={'center'}/>
                 </TouchableOpacity>
                 <Image style={{width: 80, height: 80}}
-                       source={{uri: item.itemimg
-                       }}
+                       source={Cart.good}
                 />
-                <View style={{
-                    justifyContent: commonStyle.around,
-                    flex: 1,
-                    marginHorizontal: 10,
-                    height: 50
-                }}>
-                    <Text style={{
+                <View style={{width:width-150}}>
+                    <View style={{
+                        marginHorizontal: 10,
+                        height: 50
+                    }}>
+                    <Text numberOfLines={2} style={{
                         fontSize: 13,
                         color: commonStyle.textBlockColor
                     }}>
-                        {item.itemName}
+                        {/*{item.itemName}*/}
+                        西安怡康医药有限责任公司成立于2
+                        001年及控股公司14家
                     </Text>
-                    <Text style={{
-                        fontSize: 13,
-                        color: commonStyle.textBlockColor
-                    }}>
-                        {`￥${item.itemPrice}`}
-                    </Text>
+                    <Text style={{fontSize:12,color:'#999'}}>全部套装 68块</Text>
                 </View>
                 <View style={{
                     flexDirection: commonStyle.row,
+                    justifyContent:'space-between',
                     alignItems: commonStyle.center,
                     marginHorizontal: 10
                 }}>
+                    <Text style={{
+                        fontSize: 13,
+                        color:'#FC4851',
+                    }}>
+                        {`￥${item.itemPrice}`}
+                    </Text>
+                    <View style={{flexDirection: commonStyle.row,}}>
                     <TouchableOpacity onPress={() => this.minus(sectionIndex, index)}>
                         <Image source={LocalImg.cart_group_icon}/>
                     </TouchableOpacity>
@@ -241,6 +261,8 @@ class CartScene extends PureComponent {
                     <TouchableOpacity onPress={() => this.add(sectionIndex, index)}>
                         <Image source={LocalImg.cart_group5_icon}/>
                     </TouchableOpacity>
+                    </View>
+                </View>
                 </View>
             </View>
         )
@@ -260,16 +282,33 @@ class CartScene extends PureComponent {
                            resizeMode={'center'}
                     />
                 </TouchableOpacity>
+                <View  style={{marginRight:5}}>
+                <Icon
+                    size={18}
+                    name='inbox'
+                    type='antdesign'
+                    color='#666'
+                />
+                </View>
                 <Text style={{
-                    color: commonStyle.gray,
-                    fontSize: 12
+                    color: '#333',
+                    fontSize: 16
                 }}>
                     {section}
                 </Text>
+                <Icon
+                    size={15}
+                    name='right'
+                    type='antdesign'
+                    color='#666'
+                />
             </View>
         )
     }
-
+    setModalVisible=() =>{
+        this.setState({ modalVisible: false });
+        this.props.navigation.navigate('ExaminationPassed')
+    }
     render() {
         let tempArr = api.shopCart.map((item, index) => {
             let tempData = {}
@@ -280,11 +319,6 @@ class CartScene extends PureComponent {
         })
         return (
             <View style={styles.container}>
-                {/*<View style={styles.navBar}>*/}
-                {/*    <Text style={{marginTop: 15, fontSize: 17}}>*/}
-                {/*        购物车*/}
-                {/*    </Text>*/}
-                {/*</View>*/}
                 <SectionList
                     renderSectionHeader={this.renderSectionHeader}
                     renderItem={this.renderItem}
@@ -307,39 +341,82 @@ class CartScene extends PureComponent {
                                    resizeMode={'center'}
                             />
                         </TouchableOpacity>
-                        <Text>
+                        <Text style={{fontSize:13}}>
                             全选
                         </Text>
                     </View>
-                    <Text style={{marginHorizontal: 10}}>合计:
+                    <Text style={{marginHorizontal: 10,fontSize:13}}>合计:
                         <Text style={{color: commonStyle.red}}>
                             ￥{parseFloat(this.state.totalPrice).toFixed(2)}
                         </Text>
                     </Text>
                     <TouchableOpacity onPress={()=> this.settlementPrice()}>
                         <View style={{
-                            width: 120,
+                            width: 75,
                             backgroundColor: commonStyle.red,
                             alignItems: commonStyle.center,
                             justifyContent: commonStyle.center,
-                            height: commonStyle.cellHeight,
+                            height: 30,
                             marginRight: 10,
                             marginBottom: 10,
-                            borderRadius:30
+                            borderRadius:15
                         }}>
-                            <Text style={{color: commonStyle.white}}>
+                            <Text style={{color: commonStyle.white,fontSize:13}}>
                                 去结算({this.state.totalNum})
                             </Text>
                         </View>
                     </TouchableOpacity>
                 </View>
+                <Modal
+                    visible={this.state.modalVisible}
+                    transparent={true}
+                    onRequestClose={()=>{
+                    }}
+                    onShow={()=>{
+                    }}>
+                    <View style={{position:'absolute',top:height/6,right:20,zIndex:100}}>
+                        <Icon
+                            name='close-o'
+                            type='evilicon'
+                            color='#fff'
+                            onPress={() =>  this.setState({ modalVisible: false })}
+                        />
+                    </View>
+                    <View style={{flex:1,justifyContent:'center',alignItems:'center',backgroundColor:'rgba(0, 0, 0, 0.5)'}}>
+
+                        <View style={{height:height/2,width:width-60,backgroundColor:'white',alignItems:'center'}}>
+
+                            <ImageBackground style={{height:177,width:'100%',alignItems:'center',justifyContent:'flex-end'}} source={main.pass} >
+                                <View style={{position:'absolute',bottom:0}}>
+                                    <Text style={{fontSize:14,color:'#666666'}}>请上传你的处方</Text>
+                                </View>
+                            </ImageBackground>
+                            <Button
+                                title='上传处方'
+                                titleStyle={{fontSize:18,color:'#fff'}}
+                                buttonStyle={{borderRadius:22,height:44,backgroundColor:"#5FA9FF",marginTop:40,width:(width-60)/2,}}
+                                onPress={()=>{this.setModalVisible()}}/>
+                        </View>
+                    </View>
+                </Modal>
             </View>
         )
     }
 
     //结算购物车
     settlementPrice() {
-        alert()
+        this.setState({
+            modalVisible:true
+        })
+       /* Alert.alert(
+            '',
+            '处方需要有处方证明',
+            [
+                {text: '上传处方', onPress: () => this.props.navigation.navigate('UploadRecipe')},
+                {text: '找医生开药', onPress: () => this.props.navigation.navigate('FillOrder')},
+            ],
+            { cancelable: false }
+        )*/
     }
 }
 
@@ -363,7 +440,7 @@ const styles = StyleSheet.create({
         // borderBottomWidth: 5,
         borderRadius: 15,
         marginLeft: 15,
-        marginRight: 15.0,
+        marginRight: 15,
     },
     sectionHeader: {
         height: 40,

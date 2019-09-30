@@ -99,7 +99,6 @@ class MineScene extends PureComponent<Props, State> {
       this.setState({ isRefreshing: false })
     }, 2000)
   }
-
   renderHeader() {
     return (
         <View style={styles.header}>
@@ -239,6 +238,7 @@ class MineScene extends PureComponent<Props, State> {
             <MineViewCell
                 mineViewInfos={api.mineViewInfo}
                 onMineViewSelected={this.onMineViewSelected}
+                onPress={()=>this.props.navigation.navigate('MineOrderTab')}
             />
           </View>
           <SpacingView />

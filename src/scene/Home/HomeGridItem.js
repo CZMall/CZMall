@@ -35,7 +35,7 @@ type Props = {
 }
 
 
-class HomeGridItem extends PureComponent<Props> {
+class HomeGridItem extends PureComponent<> {
 
   render() {
     let info = this.props.info

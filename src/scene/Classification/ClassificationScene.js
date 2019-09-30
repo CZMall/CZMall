@@ -60,6 +60,9 @@ class ClassificationScene extends PureComponent<Props, State> {
       this._buttonRefs.push(refs);
     }
   }
+  /*componentDidMount(){
+    alert(JSON.stringify(leftData))
+  }*/
   render() {
     const buttons = [];
     this._buttonRefs.forEach(btn => buttons.concat(btn));
