@@ -13,33 +13,35 @@ export const commonStyle = {
 
     /** color **/
     // 常用颜色
-    paper: '#FFFAFA',
+    paper: '#F4F4F4',
     red: '#FF0000',
-    orange: '#FFA500',
+    orange: '#FFBF80',
     yellow: '#FFFF00',
-    green: '#00FF00',
+    green: '#00c257',
     cyan: '#00FFFF',
-    blue: '#0000FF',
+    blue: '#5FA9FF',
     purple: '#800080',
     black: '#000',
     white: '#FFF',
     gray: '#808080',
-    drakGray: '#A9A9A9',
+    drankGray: '#A9A9A9',
     lightGray: '#D3D3D3',
     tomato: '#FF6347',
     PeachPuff: '#FFDAB9',
     primary: '#69AAE8',
     border: '#e0e0e0',
-    categoryGray: '#ececec',
+    categoryGray: '#F4F4F4',
     categoryDrankGray: '#666',
     clear: 'transparent',
 
     /** 主题色 **/
     themeColor: '#e74c3c',
     // 默认灰色字体颜色
-    textGrayColor: '#989898',
+    textGrayColor: '#999999',
     // 默认黑色字体颜色
-    textBlockColor: '#262626',
+    textBlankColor: '#666666',
+    // 默认红色字体颜色
+    textRedColor: '#FF6662',
     // 默认背景颜色
     bgColor: '#E6E6E6',
     // 默认分割线颜色
@@ -47,7 +49,7 @@ export const commonStyle = {
     // 默认placeholder颜色
     placeholderColor: '#eee',
     // borderColor
-    borderColor: '#808080',
+    borderColor: '#DDDDDD',
     // 导航title 颜色
     navTitleColor: '#262626',
     // 导航左item title color
@@ -57,6 +59,11 @@ export const commonStyle = {
     navThemeColor: '#FEFEFE',
     iconGray: '#989898',
     iconBlack: '#262626',
+    tabBarColor:'#282E38',
+    //优惠框
+    preferentialBarColor: '#FF6662',
+    cabbagePriceColor: '#D9D96C',
+    discountSpellGroupColor: '#80AAFF',
 
     /** space **/
     // 上边距

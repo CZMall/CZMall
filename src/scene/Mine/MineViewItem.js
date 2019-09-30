@@ -54,8 +54,8 @@ const styles = StyleSheet.create({
         height: screen.width / 5,
     },
     icon: {
-        width: screen.width / 9,
-        height: screen.width / 9,
+        width: 27,
+        height: 25,
         margin: 5,
     }
 });

@@ -6,7 +6,7 @@
  * @flow
  */
 
-let drugcategorys = [
+let drugCategorys = [
     {
         header: "按人群找药",
         items: [
@@ -18,24 +18,6 @@ let drugcategorys = [
                 praise: "赞4",
                 prise: "¥18.86",
                 activity: "8折优惠，限1份"
-            },
-            {
-                icon: '',
-                title: "加豆皮",
-                subtitle: "",
-                sales: "月销20份",
-                praise: "赞1",
-                prise: "¥3",
-                activity: ""
-            },
-            {
-                icon: '',
-                title: "加金针菇",
-                subtitle: "",
-                sales: "月销220份",
-                praise: "赞2",
-                prise: "¥4",
-                activity: ""
             },
             {
                 icon: '',
@@ -521,4 +503,4 @@ let drugcategorys = [
         ]
     }
 ];
-export { drugcategorys };
+export { drugCategorys };

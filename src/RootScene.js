@@ -28,6 +28,9 @@ import MineScene from './scene/Mine/MineScene';
 
 import WebScene from './widget/WebScene';
 import ClassificationScene from './scene/Classification/ClassificationScene';
+import BusinessDetails from './scene/Detail/BusinessDetails';
+import GoodsDetails from './scene/Detail/GoodsDetails';
+import MorePharmacy from './scene/Detail/MorePharmacy';
 import LocalImg from './common/commonImages';
 
 const lightContentScenes = ['Home', 'Mine']
@@ -82,8 +85,8 @@ const Tab = createBottomTabNavigator(
           <TabBarItem
             tintColor={tintColor}
             focused={focused}
-            normalImage={LocalImg.homepage_normal}
-            selectedImage={LocalImg.homepage_selected}
+            normalImage={LocalImg.home_page_normal}
+            selectedImage={LocalImg.home_page_selected}
           />
         )
       }),
@@ -96,8 +99,8 @@ const Tab = createBottomTabNavigator(
           <TabBarItem
             tintColor={tintColor}
             focused={focused}
-            normalImage={LocalImg.merchant_normal}
-            selectedImage={LocalImg.merchant_selected}
+            normalImage={LocalImg.classification_normal}
+            selectedImage={LocalImg.classification_selected}
           />
         )
       }),
@@ -106,13 +109,13 @@ const Tab = createBottomTabNavigator(
     Order: {
       screen: createStackNavigator({ Order: OrderScene }),
       navigationOptions: ({ navigation }) => ({
-        tabBarLabel: '觅Me',
+        tabBarLabel: '圈子',
         tabBarIcon: ({ focused, tintColor }) => (
           <TabBarItem
             tintColor={tintColor}
             focused={focused}
-            normalImage={LocalImg.find_me_normal}
-            selectedImage={LocalImg.find_me_selected}
+            normalImage={LocalImg.circle_normal}
+            selectedImage={LocalImg.circle_selected}
           />
         )
       }),
@@ -126,8 +129,8 @@ const Tab = createBottomTabNavigator(
             <TabBarItem
                 tintColor={tintColor}
                 focused={focused}
-                normalImage={LocalImg.cart_normal}
-                selectedImage={LocalImg.cart_selected}
+                normalImage={LocalImg.shopping_cart_normal}
+                selectedImage={LocalImg.shopping_cart_selected}
             />
         )
       }),
@@ -141,8 +144,8 @@ const Tab = createBottomTabNavigator(
           <TabBarItem
             tintColor={tintColor}
             focused={focused}
-            normalImage={LocalImg.mine_normal}
-            selectedImage={LocalImg.merchant_selected}
+            normalImage={LocalImg.my_normal}
+            selectedImage={LocalImg.my_selected}
           />
         )
       }),
@@ -170,7 +173,9 @@ const AppNavigator = createStackNavigator(
   {
     Tab: { screen: Tab },
     Web: { screen: WebScene },
-    Classification: { screen: ClassificationScene },
+    BusinessDetails: { screen: BusinessDetails},
+    GoodsDetails: { screen: GoodsDetails},
+    MorePharmacy: { screen: MorePharmacy},
   },
   {
     defaultNavigationOptions: {

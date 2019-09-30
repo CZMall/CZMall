@@ -21,7 +21,6 @@ import {commonStyle} from '../../widget/commonStyle'
 import {
     SpacingView,
 } from '../../widget';
-import {ListItem} from 'react-native-elements'
 import LocalImg from '../../common/commonImages';
 
 class CartScene extends PureComponent {
