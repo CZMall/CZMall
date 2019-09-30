@@ -7,8 +7,9 @@ INJECTED from D:\work\CZMall\android\app\src\main\AndroidManifest.xml:1:1-30:12
 MERGED from D:\work\CZMall\android\app\src\main\AndroidManifest.xml:1:1-30:12
 MERGED from [:react-native-image-picker] D:\work\CZMall\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-23:12
 MERGED from [:react-native-camera] D:\work\CZMall\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:2:1-18:12
-MERGED from [:react-native-spring-scrollview] D:\work\CZMall\node_modules\react-native-spring-scrollview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-blur] D:\work\CZMall\node_modules\react-native-blur\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-vector-icons] D:\work\CZMall\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-spring-scrollview] D:\work\CZMall\node_modules\react-native-spring-scrollview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-gesture-handler] D:\work\CZMall\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.59.8] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\react-native-0.59.8.aar\a03ad2f62a591d1a21a743db174a3a03\AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\4cce8e39ab04256e0b8dd63414eb6e28\AndroidManifest.xml:17:1-22:12
@@ -183,10 +184,12 @@ MERGED from [:react-native-image-picker] D:\work\CZMall\node_modules\react-nativ
 MERGED from [:react-native-image-picker] D:\work\CZMall\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-camera] D:\work\CZMall\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-camera] D:\work\CZMall\node_modules\react-native-camera\android\build\intermediates\library_manifest\generalDebug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-spring-scrollview] D:\work\CZMall\node_modules\react-native-spring-scrollview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-spring-scrollview] D:\work\CZMall\node_modules\react-native-spring-scrollview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-blur] D:\work\CZMall\node_modules\react-native-blur\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-blur] D:\work\CZMall\node_modules\react-native-blur\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] D:\work\CZMall\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] D:\work\CZMall\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-spring-scrollview] D:\work\CZMall\node_modules\react-native-spring-scrollview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-spring-scrollview] D:\work\CZMall\node_modules\react-native-spring-scrollview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-gesture-handler] D:\work\CZMall\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-gesture-handler] D:\work\CZMall\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.59.8] C:\Users\Admin\.gradle\caches\transforms-1\files-1.1\react-native-0.59.8.aar\a03ad2f62a591d1a21a743db174a3a03\AndroidManifest.xml:7:5-9:41

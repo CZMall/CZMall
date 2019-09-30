@@ -29,7 +29,7 @@ class TabBarItem extends PureComponent<Props> {
         source={this.props.focused
           ? selectedImage
           : this.props.normalImage}
-        style={{ tintColor: this.props.tintColor, width: 25, height: 25 }}
+        style={{ tintColor: this.props.tintColor, width: 21, height: 22 }}
       />
     )
   }

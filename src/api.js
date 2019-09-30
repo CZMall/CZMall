@@ -6,6 +6,8 @@
  * @flow
  */
 
+import LocalImg from '../src/common/commonImages';
+
 
 export default {
   recommend: 'http://api.meituan.com/group/v1/recommend/homepage/city/1?__skck=40aaaf01c2fc4801b9c059efcd7aa146&__skcy=mrUZYo7999nH8WgTicdfzaGjaSQ=&__skno=51156DC4-B59A-4108-8812-AD05BF227A47&__skts=1434530933.303717&__skua=bd6b6e8eadfad15571a15c3b9ef9199a&__vhost=api.mobile.meituan.com&ci=1&client=iphone&limit=40&movieBundleVersion=100&msid=48E2B810-805D-4821-9CDD-D5C9E01BC98A2015-06-17-14-50363&offset=0&position=39.983497,116.318042&userId=10086&userid=10086&utm_campaign=AgroupBgroupD100Fab_chunceshishuju__a__a___b1junglehomepagecatesort__b__leftflow___ab_gxhceshi__nostrategy__leftflow___ab_gxhceshi0202__b__a___ab_pindaochangsha__a__leftflow___ab_xinkeceshi__b__leftflow___ab_gxtest__gd__leftflow___ab_gxh_82__nostrategy__leftflow___ab_pindaoshenyang__a__leftflow___i_group_5_2_deallist_poitype__d__d___ab_b_food_57_purepoilist_extinfo__a__a___ab_trip_yidizhoubianyou__b__leftflow___ab_i_group_5_3_poidetaildeallist__a__b___ab_waimaizhanshi__b__b1___a20141120nanning__m1__leftflow___ab_pind',
@@ -95,149 +97,61 @@ export default {
     }},
 
   menuInfo: [
-    { title: '扫码找药', icon: require('./img/home/icon_homepage_food_category.png') },
-    { title: '按处方找药', icon: require('./img/home/icon_homepage_movie_category.png') },
-    { title: '用药指导', icon: require('./img/home/icon_homepage_hotel_category.png') },
-    { title: '按部位找药', icon: require('./img/home/icon_homepage_beauty_category.png') },
-    { title: '找医生开药', icon: require('./img/home/icon_homepage_movie_category.png') },
-    { title: '慢病续方', icon: require('./img/home/icon_homepage_foottreat_category.png') },
+    { title: '扫码找药', icon: LocalImg.sweep_code_icon},
+    { title: '按处方找药', icon: LocalImg.prescription_icon},
+    { title: '用药指导', icon: LocalImg.position_icon},
+    { title: '按部位找药', icon: LocalImg.continuation_icon},
+    { title: '找医生开药', icon: LocalImg.doctor_icon},
+    { title: '慢病续方', icon:LocalImg.guidance_icon},
   ],
   classificationInfo: [
-    { title: '感冒咳嗽', icon: require('./img/home/icon_homepage_food_category.png') },
-    { title: '男科用药', icon: require('./img/home/icon_homepage_movie_category.png') },
-    { title: '妇科用药', icon: require('./img/home/icon_homepage_hotel_category.png') },
-    { title: '补益调理', icon: require('./img/home/icon_homepage_beauty_category.png') },
-    { title: '养肝护胆', icon: require('./img/home/icon_homepage_movie_category.png') },
-    { title: '心脑用药', icon: require('./img/home/icon_homepage_foottreat_category.png') },
-    { title: '儿科用药', icon: require('./img/home/icon_homepage_foottreat_category.png') },
-    { title: '营养保健', icon: require('./img/home/icon_homepage_foottreat_category.png') },
-    { title: '风湿骨科', icon: require('./img/home/icon_homepage_foottreat_category.png') },
-    { title: '皮肤科', icon: require('./img/home/icon_homepage_foottreat_category.png') },
+    { title: '感冒咳嗽', icon: LocalImg.cold_icon},
+    { title: '男科用药', icon: LocalImg.andrology_icon},
+    { title: '妇科用药', icon: LocalImg.gynaecology_icon},
+    { title: '补益调理', icon: LocalImg.conditioning_icon},
+    { title: '养肝护胆', icon: LocalImg.yang_icon},
+    { title: '心脑用药', icon: LocalImg.xinnao_icon},
+    { title: '儿科用药', icon: LocalImg.erke_icon},
+    { title: '营养保健', icon: LocalImg.yingyang_icon},
+    { title: '风湿骨科', icon: LocalImg.fengshi_icon},
+    { title: '皮肤科', icon: LocalImg.pifu_icon},
   ],
   secondsKillInfo:[
     {
       title: '静心口服液',
-      icon: require('./img/home/icon_homepage_food_category.png'),
+      icon: LocalImg.cold_icon,
       discountPrice: '¥124',
       originalPrice: '¥134'
     },
     {
       title: '多乐士许愿神盒',
-      icon: require('./img/home/icon_homepage_movie_category.png'),
+      icon: LocalImg.cold_icon,
       discountPrice: '¥59.5',
       originalPrice: '¥119'
     },
     {
       title: '东阿阿胶',
-      icon: require('./img/home/icon_homepage_hotel_category.png'),
+      icon: LocalImg.cold_icon,
       discountPrice: '¥889',
       originalPrice: '¥1499'
     },
     {
       title: '感冒灵颗粒',
-      icon: require('./img/home/icon_homepage_beauty_category.png'),
+      icon: LocalImg.cold_icon,
       discountPrice: '¥19',
       originalPrice: '¥24'
     },
     {
       title: '云南白药',
-      icon: require('./img/home/icon_homepage_movie_category.png'),
+      icon: LocalImg.cold_icon,
       discountPrice: '¥70',
       originalPrice: '¥78'
     },
     {
       title: '头孢',
-      icon: require('./img/home/icon_homepage_foottreat_category.png'),
+      icon: LocalImg.cold_icon,
       discountPrice: '¥37.5',
       originalPrice: '¥66'
-    },
-  ],
-  //附近药店
-  list: [
-    {
-      name: "华东大药房（高新路店）",
-      isBrand: false,
-      logo: 27,
-      scores: 4.0,
-      sale: 1100,
-      bao: false,
-      startPay: "1",
-      deliverPay: "",
-      evOnePay: "",
-      journey: "1.5km",
-      time: "22分钟",
-      activities: [
-        {key: "超时赔付", text: ""},
-        {key: "满减", text: ""}
-      ]
-    },
-    {
-      name: "稻麦香（金源店）",
-      isBrand: true,
-      logo: 21,
-      scores: 2.5,
-      sale: 2419,
-      startPay: "￥0起送",
-      deliverPay: "配送费￥2",
-      evOnePay: "￥11/人",
-      journey: "150m",
-      time: "25分钟",
-      activities: [
-        {key: "减", text: "满20减2，满30减3，满40减4（不与美食活动同享）"}
-      ]
-    },
-    {
-      name: "米有理由（中关村店）",
-      logo: 11,
-      scores: 1.5,
-      sale: 1419,
-      startPay: "￥0起送",
-      deliverPay: "配送费￥5",
-      evOnePay: "￥12/人",
-      journey: "450m",
-      time: "45分钟"
-    },
-    {
-      name: "吉野家(鼎好店)",
-      isBrand: true,
-      logo: 16,
-      scores: 4.5,
-      sale: 3419,
-      startPay: "￥0起送",
-      deliverPay: "配送费￥2",
-      evOnePay: "￥14/人",
-      journey: "150m",
-      time: "25分钟",
-      activities: [
-        {key: "超时赔付", text: "满20减2，满30减3，满40减4（不与美食活动同享）"},
-        {key: "满减", text: "新品5折"}
-      ]
-    },
-    {
-      name: "周大虾龙虾盖浇饭（中关村东路店）",
-      logo: 18,
-      scores: 4,
-      sale: 4013,
-      startPay: "￥20起送",
-      deliverPay: "配送费￥4",
-      evOnePay: "￥21/人",
-      journey: "250m",
-      time: "35分钟",
-      activities: [
-        {key: "满减", text: "双人餐特惠"}
-      ]
-    },
-    {
-      name: "轰咖咖喱饭（中关村东路店）",
-      isBrand: true,
-      logo: 17,
-      scores: 4,
-      sale: 4013,
-      startPay: "￥20起送",
-      deliverPay: "配送费￥4",
-      evOnePay: "￥21/人",
-      journey: "250m",
-      time: "35分钟"
     },
   ],
 
@@ -411,31 +325,75 @@ export default {
   ],
   //订单状态
   mineViewInfo: [
-    { title: '代付款', icon: require('./img/home/icon_homepage_food_category.png') },
-    { title: '待发货', icon: require('./img/home/icon_homepage_movie_category.png') },
-    { title: '待收货', icon: require('./img/home/icon_homepage_hotel_category.png') },
-    { title: '待评价', icon: require('./img/home/icon_homepage_beauty_category.png') },
-    { title: '售后退款', icon: require('./img/home/icon_homepage_movie_category.png') },
+    { title: '代付款', icon: LocalImg.pending_payment_icon},
+    { title: '待发货', icon: LocalImg.to_be_shipped_icon},
+    { title: '待收货', icon: LocalImg.goods_to_be_received_icon},
+    { title: '待评价', icon: LocalImg.to_be_evaluated_icon},
+    { title: '售后退款', icon: LocalImg.after_sale_icon},
   ],
   //我的医疗
   mineMedicalInfo: [
-    { title: '我的预约', icon: require('./img/home/icon_homepage_food_category.png') },
-    { title: '我的问诊', icon: require('./img/home/icon_homepage_movie_category.png') },
-    { title: '我的医生', icon: require('./img/home/icon_homepage_hotel_category.png') },
-    { title: '我的用药', icon: require('./img/home/icon_homepage_beauty_category.png') },
-    { title: '问诊人管理', icon: require('./img/home/icon_homepage_movie_category.png') },
+    { title: '我的预约', icon: LocalImg.make_an_appointment_icon},
+    { title: '我的问诊', icon: LocalImg.interrogation_icon},
+    { title: '我的医生', icon: LocalImg.pharmacist_icon},
+    { title: '我的用药', icon: LocalImg.medication_icon},
+    { title: '问诊人管理', icon: LocalImg.interrogation_person_icon},
   ],
   //我的服务
   mineServiceInfo: [
-    { title: '分享得奖', icon: require('./img/home/icon_homepage_food_category.png') },
-    { title: '地址管理', icon: require('./img/home/icon_homepage_movie_category.png') },
-    { title: '我的拼团', icon: require('./img/home/icon_homepage_hotel_category.png') },
-    { title: '我的问答', icon: require('./img/home/icon_homepage_beauty_category.png') },
-    { title: '联系客服', icon: require('./img/home/icon_homepage_movie_category.png') },
-    { title: '反馈中心', icon: require('./img/home/icon_homepage_movie_category.png') },
-    { title: '收藏店铺', icon: require('./img/home/icon_homepage_hotel_category.png') },
-    { title: '收藏药品', icon: require('./img/home/icon_homepage_beauty_category.png') },
+    { title: '分享得奖', icon: LocalImg.share_icon},
+    { title: '地址管理', icon: LocalImg.address_icon},
+    { title: '我的拼团', icon: LocalImg.assemble_icon},
+    { title: '我的问答', icon: LocalImg.questions_and_answers_icon},
+    { title: '联系客服', icon: LocalImg.customer_service_icon},
+    { title: '反馈中心', icon: LocalImg.feedback_icon},
+    { title: '收藏店铺', icon: LocalImg.shop_icon},
+    { title: '收藏药品', icon: LocalImg.drugs_icon},
   ],
+  //说明书
+  instructions: [
+    {
+      "stId": "836121754643660800",
+      "items": [
+        {
+          instructionsTitle: '商品说明书',
+          genericNames: '【通用名称】',
+          medicineName: '感冒灵颗粒',
+          companyName: '长春制药哈药六厂责任有限公司',
+          approvalTitle: '【批准文号】',
+          approvalNumber: '国药准字Z440201940',
+          apply: '【适应症】',
+          indications: '解热症痛。用于感冒引起的头痛、发热、鼻塞、流涕、咽痛。',
+          specifications: '【药品规格】',
+          specificationsNumber: '10g*9袋',
+          ingredients: '【药品成份】',
+          ingredientsName: '三叉苦、金盏银盘、野菊花、岗梅、咖啡因、对乙酰氨基酚、马来酸氯苯那敏、薄荷油。辅料为蔗糖粉。',
+          usages: '【用法用量】',
+          usagesName: '开水冲服，一次10克(1袋)，一日3次。',
+          reaction: '【不良反应】',
+          reactionName: '偶见皮疹、荨麻疹、药热及粒细胞减少；可见困倦、嗜睡、口渴、虚弱感；长期大量用药会会导致肝肾功能异。',
+          taboo: '【禁忌】',
+          tabooName: '严禁肝肾功能不全禁用。',
+          needingAttention: '【注意事项】',
+          needingAttentionName: '1.忌烟、酒及辛辣、生冷、油腻食物。2.不宜在服药期间同时服用滋补性中成药。3.本品含对乙酰氨基酚、马来酸氧苯那敏、咖啡因。服务本品期间不得尹南久或含有酒精的饮料；不能同时服用与本品成份相似的其他抗感冒药；肝、肾功能不全者慎用；膀胱颈梗阻、甲状腺功能亢进、青光眼、高血压和前列腺肥大者慎用；孕妇及哺乳期妇女慎用；服药期间不得驾驶机、车、船、从事高空作业、机械作业及操作精密仪器。4.脾胃虚寒，症见腹痛、喜暖、泄泻者慎用。5.糖尿病患者及有心脏病等慢性病严重者应在医师的指导下服用。6.儿童、年老体弱者应在医师指导下服用。7.服药3天后症状无改善或者症状加重，或出现新的严重症状如胸闷、心悸等应立即停药，并去医院就诊。8.对本品过敏者禁用，过敏体质者慎用。9.本品性状发生改变时禁止使用。10.儿童必须在成人监护下使用。11.请将本品放在儿童不能接触的地方。12.如正在使用其他药品，使用本品前请咨询医师或药师。',
+          interact: '【药物相互作用】',
+          interactName: '1.与其他解热镇痛药并用，有增加肾毒性的危险。2.如与其他药物同时使用可能会发生药物相互作用，详情请咨询医师或药师。',
+          character: '性状',
+          characterName: '本品为浅棕色至棕色的颗粒，味甜、微苦。',
+          packaging: '【包装】',
+          packagingName: '复合膜；每盒装9袋',
+          dosageForm: '【剂型】',
+          dosageFormName: '颗粒',
+          storage: '【贮藏】',
+          storageName: '密封',
+          validity: '【有效期】',
+          validityName: '24个月',
+          warmPrompt: '【温馨提示】',
+          warmPromptName: '1.0TC药品请按药品说明书或在药师指导下购买和使用。2.医疗器械请仔细阅读产品说明书或者在医务人员的指导下购买和使用，禁忌内容或注意事项详见说明书。3.保健品不能代替药物。4.由于厂家不定期的更换产品包装，如遇新包装上市可能存在更新滞后，请以收到的实货包装为准！5.药品属于特殊商品，除药品质量原因外，药品一经售出，不得退换。'
+        },
+      ]
+    }
+  ]
 }
 
 export function recommendUrlWithId(id: string) {

@@ -12,15 +12,12 @@ import React, {
 } from 'react';
 import {
     View,
-    Text,
     StyleSheet,
     ScrollView
 } from 'react-native';
-import PageControl from 'react-native-page-control'
 
 import {
-    screen,
-    system
+    screen
 } from '../../common';
 import { commonStyle } from '../../widget/commonStyle'
 import HomeSecondsKillItem from './HomeSecondsKillItem'
@@ -87,16 +84,6 @@ class HomeSecondsKillCell extends PureComponent<Props, State>  {
                         {secondsKillViews}
                     </View>
                 </ScrollView>
-
-                {/*<PageControl*/}
-                {/*    style={styles.pageControl}*/}
-                {/*    numberOfPages={pageCount}*/}
-                {/*    currentPage={this.state.currentPage}*/}
-                {/*    hidesForSinglePage*/}
-                {/*    pageIndicatorTintColor='gray'*/}
-                {/*    currentPageIndicatorTintColor={color.primary}*/}
-                {/*    indicatorSize={{ width: 8, height: 8 }}*/}
-                {/*/>*/}
             </View>
 
         )

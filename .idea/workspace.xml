@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e330bafa-b37c-4dd8-bad0-0b9a0ff4fcb8" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileChanges/last-build.bin" />
       <change beforePath="" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileContent/fileContent.lock" />
       <change beforePath="" afterPath="$PROJECT_DIR$/android/.gradle/4.10.2/fileHashes/fileHashes.bin" />
@@ -23787,18 +23788,151 @@
       <change beforePath="$PROJECT_DIR$/src/scene/Mine/MineViewCell.js" afterPath="$PROJECT_DIR$/src/scene/Mine/MineViewCell.js" />
       <change beforePath="$PROJECT_DIR$/yarn-error.log" afterPath="$PROJECT_DIR$/yarn-error.log" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
+=======
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataSource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/NavBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/Parabolic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/ShopBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/Cold@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/Cold@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/Conditioning@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/Conditioning@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/Continuation@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/Continuation@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/Doctor@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/Doctor@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/Gynaecology@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/Gynaecology@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/Position@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/Position@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/Sweep_code@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/Sweep_code@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/andrology@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/andrology@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/bj@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/bj@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/erke@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/erke@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/fengshi@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/fengshi@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/guidance@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/guidance@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/hot@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/hot@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/hp@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/hp@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/kuang@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/kuang@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/pifu@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/pifu@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/prescription@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/prescription@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/sousuo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/sousuo@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/xiaobj@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/xiaobj@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/xinnao@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/xinnao@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/xx@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/xx@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/yang@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/yang@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/yingyang@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/home/yingyang@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scene/Detail/BusinessDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scene/Detail/DrugListData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scene/Detail/GoodsDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scene/Detail/GoodsList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scene/Detail/MorePharmacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scene/Detail/UserComments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/com/czmall/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/czmall/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/CZMall.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/CZMall.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RootScene.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RootScene.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/commonImages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/commonImages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/bg_customReview_image_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/icon_deal_anytime_refund.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/icon_homepage_beauty_category.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/icon_homepage_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/icon_homepage_entertainment_category.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/icon_homepage_food_category.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/icon_homepage_foottreat_category.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/icon_homepage_hotel_category.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/icon_homepage_ktv_category.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/icon_homepage_life_service_category.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/icon_homepage_map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/icon_homepage_map_old.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/icon_homepage_map_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/icon_homepage_map_selected_old.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/icon_homepage_movie_category.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/icon_homepage_search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/icon_homepage_shopping_category.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/home/search_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/After sale@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/After_sale@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/After sale@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/After_sale@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/Customer service@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/Customer_service@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/Customer service@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/Customer_service@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/Goods to be received@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/Goods_to_be_received@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/Goods to be received@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/Goods_to_be_received@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/Interrogation person@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/Interrogation_person@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/Pending payment@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/Pending_payment@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/Questions and answers@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/Questions_and_answers@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/Questions and answers@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/Questions_and_answers@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/Set up@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/Set_up@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/Set up@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/Set_up@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/To be evaluated@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/To_be_evaluated@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/To be evaluated@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/To_be_evaluated@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/To be shipped@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/To_be_shipped@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/To be shipped@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/To_be_shipped@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/make an appointment@2x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/make_an_appointment@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/mine/make an appointment@3x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mine/make_an_appointment@3x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/tabbar/tabbar_discover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/tabbar/tabbar_discover_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/tabbar/tabbar_homepage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/tabbar/tabbar_homepage_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/tabbar/tabbar_merchant.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/tabbar/tabbar_merchant_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/tabbar/tabbar_mine.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/tabbar/tabbar_mine_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/tabbar/tabbar_order.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/tabbar/tabbar_order_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/Cart/CartScene.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/Cart/CartScene.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/Classification/ClassificationScene.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/Classification/ClassificationScene.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/Classification/DataSource.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/Classification/DataSource.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/Home/HomeMenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/Home/HomeMenuItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/Home/HomeScene.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/Home/HomeScene.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/Home/HomeSecondsKillCell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/Home/HomeSecondsKillCell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/Home/HomeSecondsKillItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/Home/HomeSecondsKillItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/Mine/MineViewItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/Mine/MineViewItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene/Nearby/NearbyScene.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene/Nearby/NearbyScene.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widget/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widget/PharmacyCell.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/PharmacyCell.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widget/SpacingView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/SpacingView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widget/TabBarItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/TabBarItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/widget/commonStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/widget/commonStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+>>>>>>> 9d890568fa5a3cb9a2c601da49f9eaaa74fda366
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="RootScene.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RootScene.js">
@@ -23893,13 +24027,22 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
               <caret line="46" column="20" lean-forward="false" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scene/Detail/GoodsList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="278" column="4" selection-start-line="278" selection-start-column="4" selection-end-line="278" selection-end-column="4" />
+>>>>>>> 9d890568fa5a3cb9a2c601da49f9eaaa74fda366
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#112#154#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="CartSceneDemo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scene/Cart/CartSceneDemo.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -23907,22 +24050,72 @@
               <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding>
                 <element signature="e#517#566#0" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scene/Detail/GoodsDetails.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8168">
+              <caret line="575" column="21" selection-start-line="575" selection-start-column="21" selection-end-line="575" selection-end-column="21" />
+              <folding>
+                <element signature="e#124#173#0" expanded="true" />
+>>>>>>> 9d890568fa5a3cb9a2c601da49f9eaaa74fda366
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scene/Home/HomeScene.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="336" column="31" lean-forward="true" selection-start-line="336" selection-start-column="31" selection-end-line="336" selection-end-column="31" />
+              <folding>
+                <element signature="e#92#139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scene/Detail/MorePharmacy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="129" column="34" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
+              <folding>
+                <element signature="e#112#154#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DataSource.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> 9d890568fa5a3cb9a2c601da49f9eaaa74fda366
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+<<<<<<< HEAD
+=======
+        <option value="package.json" />
+>>>>>>> 9d890568fa5a3cb9a2c601da49f9eaaa74fda366
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>we</find>
       <find>结算</find>
       <find>underlineStyle</find>
@@ -23954,6 +24147,42 @@
       <find>red</find>
       <find>upload_button</find>
     </findStrings>
+=======
+      <find>classificationViews</find>
+      <find>render</find>
+      <find>onSecondsKillSelected</find>
+      <find>BusinessDetails</find>
+      <find>SpacingView</find>
+      <find>Lo</find>
+      <find>keyExtractor</find>
+      <find>backedClicked</find>
+      <find>back</find>
+      <find>this.ba</find>
+      <find>ref</find>
+      <find>requestDiscount</find>
+      <find>discount</find>
+      <find>api</find>
+      <find>componentDidMount</find>
+      <find>addItem</find>
+      <find>itemContainer</find>
+      <find>iconView</find>
+      <find>cartBar</find>
+      <find>lens</find>
+      <find>renderTypes</find>
+      <find>buttonC</find>
+      <find>FlatList</find>
+      <find>bzBox</find>
+      <find>mallContent</find>
+      <find>imageViewCellItem</find>
+      <find>drugLists</find>
+      <find>business</find>
+      <find>item</find>
+      <find>refreshing</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/img/home</dir>
+    </dirStrings>
+>>>>>>> 9d890568fa5a3cb9a2c601da49f9eaaa74fda366
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23966,6 +24195,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/node_modules/react-native-spring-scrollview/android/build.gradle" />
         <option value="$PROJECT_DIR$/android/gradle.properties" />
         <option value="$PROJECT_DIR$/src/scene/Classification/ClassificationScene.js" />
@@ -24024,11 +24254,55 @@
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
   </component>
+=======
+        <option value="$PROJECT_DIR$/src/widget/Button.js" />
+        <option value="$PROJECT_DIR$/src/dataSouce.js" />
+        <option value="$PROJECT_DIR$/src/scene/Cart/CartScene.js" />
+        <option value="$PROJECT_DIR$/src/scene/Detail/UserComments.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/src/scene/Home/HomeSecondsKillItem.js" />
+        <option value="$PROJECT_DIR$/src/scene/Home/HomeSecondsKillCell.js" />
+        <option value="$PROJECT_DIR$/src/common/TabViewBar.js" />
+        <option value="$PROJECT_DIR$/node_modules/react-native-parabolic/src/index.js" />
+        <option value="$PROJECT_DIR$/src/common/Parabolic.js" />
+        <option value="$PROJECT_DIR$/src/scene/Detail/BusinessDetails1.js" />
+        <option value="$PROJECT_DIR$/src/scene/Detail/package.json" />
+        <option value="$PROJECT_DIR$/src/common/NavBar.js" />
+        <option value="$PROJECT_DIR$/src/scene/Detail/DrugListData.js" />
+        <option value="$PROJECT_DIR$/src/scene/Nearby/NearbyScene.js" />
+        <option value="$PROJECT_DIR$/src/scene/Mine/MineViewItem.js" />
+        <option value="$PROJECT_DIR$/src/common/screen.js" />
+        <option value="$PROJECT_DIR$/src/scene/Mine/MineScene.js" />
+        <option value="$PROJECT_DIR$/src/widget/SpacingView.js" />
+        <option value="$PROJECT_DIR$/src/widget/TabBarItem.js" />
+        <option value="$PROJECT_DIR$/src/scene/Classification/DataSource.js" />
+        <option value="$PROJECT_DIR$/src/scene/Classification/ClassificationScene.js" />
+        <option value="$PROJECT_DIR$/src/scene/Detail/GoodsList.js" />
+        <option value="$PROJECT_DIR$/src/api.js" />
+        <option value="$PROJECT_DIR$/src/common/ShopBar.js" />
+        <option value="$PROJECT_DIR$/../../CZ_Pargam/elm/app/component/ShopBar.js" />
+        <option value="$PROJECT_DIR$/src/scene/Home/HomeMenuView.js" />
+        <option value="$PROJECT_DIR$/src/RootScene.js" />
+        <option value="$PROJECT_DIR$/src/scene/Home/HomeMenuItem.js" />
+        <option value="$PROJECT_DIR$/src/scene/Detail/GoodsDetails.js" />
+        <option value="$PROJECT_DIR$/src/scene/Detail/BusinessDetails.js" />
+        <option value="$PROJECT_DIR$/src/common/commonImages.js" />
+        <option value="$PROJECT_DIR$/src/widget/index.js" />
+        <option value="$PROJECT_DIR$/src/widget/commonStyle.js" />
+        <option value="$PROJECT_DIR$/src/DataSource.js" />
+        <option value="$PROJECT_DIR$/src/scene/Detail/MorePharmacy.js" />
+        <option value="$PROJECT_DIR$/src/widget/PharmacyCell.js" />
+        <option value="$PROJECT_DIR$/src/scene/Home/HomeScene.js" />
+      </list>
+    </option>
+  </component>
+>>>>>>> 9d890568fa5a3cb9a2c601da49f9eaaa74fda366
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+<<<<<<< HEAD
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -24041,19 +24315,17 @@
     <option name="x" value="-7" />
     <option name="width" value="734" />
     <option name="height" value="867" />
+=======
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="121" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+>>>>>>> 9d890568fa5a3cb9a2c601da49f9eaaa74fda366
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -24065,18 +24337,93 @@
               <item name="CZMall" type="b2602c69:ProjectViewProjectNode" />
               <item name="CZMall" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CZMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CZMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CZMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CZMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CZMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CZMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CZMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CZMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scene" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CZMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CZMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scene" type="462c0819:PsiDirectoryNode" />
+              <item name="Cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CZMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CZMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scene" type="462c0819:PsiDirectoryNode" />
+              <item name="Classification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CZMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CZMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scene" type="462c0819:PsiDirectoryNode" />
+              <item name="Detail" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CZMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CZMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scene" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CZMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CZMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scene" type="462c0819:PsiDirectoryNode" />
+              <item name="Mine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CZMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CZMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scene" type="462c0819:PsiDirectoryNode" />
+              <item name="Order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CZMall" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CZMall" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="widget" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
+=======
+>>>>>>> 9d890568fa5a3cb9a2c601da49f9eaaa74fda366
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="D:/middle/ListDemo-master" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -24094,6 +24441,16 @@
       <recent name="D:\work\CZMall\src\scene" />
       <recent name="D:\work\CZMall\src\scene\Home" />
       <recent name="D:\work\CZMall\src\img\home" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/img/home" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img/home" />
+>>>>>>> 9d890568fa5a3cb9a2c601da49f9eaaa74fda366
     </key>
   </component>
   <component name="RunDashboard">
@@ -24108,6 +24465,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -24185,6 +24543,8 @@
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
   </component>
+=======
+>>>>>>> 9d890568fa5a3cb9a2c601da49f9eaaa74fda366
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -24195,6 +24555,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568692665986</updated>
+<<<<<<< HEAD
       <workItem from="1568692667169" duration="10296000" />
       <workItem from="1568713127997" duration="4934000" />
       <workItem from="1568767101655" duration="32100000" />
@@ -24210,10 +24571,23 @@
       <workItem from="1569719542692" duration="22533000" />
       <workItem from="1569805141490" duration="10873000" />
       <workItem from="1569817728459" duration="11539000" />
+=======
+      <workItem from="1568692667169" duration="254000" />
+      <workItem from="1568767889875" duration="18068000" />
+      <workItem from="1568855130925" duration="19476000" />
+      <workItem from="1568941647067" duration="23440000" />
+      <workItem from="1569027943372" duration="20082000" />
+      <workItem from="1569205530686" duration="2465000" />
+      <workItem from="1569210478040" duration="18707000" />
+      <workItem from="1569308535088" duration="16590000" />
+      <workItem from="1569381281717" duration="17731000" />
+      <workItem from="1569467209869" duration="64542000" />
+>>>>>>> 9d890568fa5a3cb9a2c601da49f9eaaa74fda366
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="294704000" />
   </component>
   <component name="TodoView">
@@ -24253,6 +24627,33 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+=======
+    <option name="totallyTimeSpent" value="201355000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="121" y="23" width="1280" height="777" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info id="Structure" order="1" weight="0.2494043" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329927" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.23357664" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+>>>>>>> 9d890568fa5a3cb9a2c601da49f9eaaa74fda366
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -24285,6 +24686,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -24441,6 +24843,421 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#44#83#0" expanded="true" />
+=======
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="1405" column="4" selection-start-line="1405" selection-start-column="4" selection-end-line="1405" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native-largelist-v3/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="44" column="17" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Components/Touchable/TouchableNativeFeedback.android.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1385">
+          <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widget/Button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Components/Touchable/TouchableHighlight.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="172" column="36" selection-start-line="172" selection-start-column="36" selection-end-line="172" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Classification/ClassificationCell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="24" />
+          <folding>
+            <element signature="e#93#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Home/HomeGridView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CZ_Pargam/CZMall/src/scene/Classification/ClassificationScene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="133" column="36" lean-forward="true" selection-start-line="133" selection-start-column="16" selection-end-line="133" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Classification/DataSource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Nearby/NearbyScene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Nearby/NearbyListScene.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widget/Text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="52" column="2" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/public/icon_qr.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CZ_Pargam/elm/app/pages/DetailPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1143">
+          <folding>
+            <element signature="e#92#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/tool.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/react-native-lagou-master/views/home/JobDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/react-native-lagou-master/views/discover/DiscoverList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Order/OrderScene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+          <folding>
+            <element signature="e#93#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Classification/ClassificationScene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="276" column="4" selection-start-line="276" selection-start-column="4" selection-end-line="276" selection-end-column="4" />
+          <folding>
+            <element signature="e#93#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Mine/MineViewCell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="44" column="37" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Mine/MineScene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="257" column="26" selection-start-line="257" selection-start-column="26" selection-end-line="257" selection-end-column="26" />
+          <folding>
+            <element signature="e#2739#3190#0" />
+            <element signature="e#3250#3734#0" />
+            <element signature="e#3794#4278#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Detail/DrugListData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/ShopBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="71" column="43" lean-forward="true" selection-start-line="71" selection-start-column="43" selection-end-line="71" selection-end-column="43" />
+          <folding>
+            <element signature="e#112#150#0" expanded="true" />
+            <element signature="e#395#430#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../CZ_Pargam/elm/app/component/ShopBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#92#132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Home/HomeMenuItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="56" column="9" lean-forward="true" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <folding>
+            <element signature="e#93#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Detail/UserComments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5250">
+          <caret line="350" selection-start-line="350" selection-end-line="350" selection-end-column="27" />
+          <folding>
+            <element signature="e#112#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RootScene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="177" column="32" lean-forward="true" selection-start-line="177" selection-start-column="32" selection-end-line="177" selection-end-column="32" />
+          <folding>
+            <element signature="e#92#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Home/HomeClassificationItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="46" column="4" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="4" />
+          <folding>
+            <element signature="e#93#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Mine/MineViewItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/commonImages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="88" column="15" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Detail/BusinessDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="179" column="42" lean-forward="true" selection-start-line="179" selection-start-column="42" selection-end-line="179" selection-end-column="42" />
+          <folding>
+            <element signature="e#111#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widget/SpacingView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding>
+            <element signature="e#92#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="98" column="2" selection-start-line="98" selection-start-column="2" selection-end-line="98" selection-end-column="2" />
+          <folding>
+            <element signature="e#1179#3843#0" />
+            <element signature="e#4742#5486#0" />
+            <element signature="e#5509#10121#0" />
+            <element signature="e#10148#10442#0" />
+            <element signature="e#10800#11231#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Home/HomeMenuView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1375">
+          <caret line="107" column="29" selection-start-line="107" selection-start-column="29" selection-end-line="107" selection-end-column="29" />
+          <folding>
+            <element signature="e#93#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widget/TabBarItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#92#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Detail/GoodsDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8168">
+          <caret line="575" column="21" selection-start-line="575" selection-start-column="21" selection-end-line="575" selection-end-column="21" />
+          <folding>
+            <element signature="e#124#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Home/HomeClassificationView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="e#93#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widget/DetailCell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widget/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#160#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/yargs/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="707" column="20" selection-start-line="707" selection-start-column="20" selection-end-line="707" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/metro-react-native-babel-preset/src/configs/lazy-imports.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/Animated/src/Animated.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/home/Cold@3x.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Detail/GoodsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="278" column="4" selection-start-line="278" selection-start-column="4" selection-end-line="278" selection-end-column="4" />
+          <folding>
+            <element signature="e#112#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-native/Libraries/react-native/react-native-implementation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react-native/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1903">
+          <caret line="3818" column="4" selection-start-line="3818" selection-start-column="4" selection-end-line="3818" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widget/PharmacyCell.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1753">
+          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="e#3235#3945#0" />
+            <element signature="e#3996#5584#0" />
+            <element signature="e#5678#6738#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/widget/commonStyle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DataSource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Detail/MorePharmacy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="129" column="34" selection-start-line="129" selection-start-column="34" selection-end-line="129" selection-end-column="34" />
+          <folding>
+            <element signature="e#112#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene/Home/HomeScene.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="336" column="31" lean-forward="true" selection-start-line="336" selection-start-column="31" selection-end-line="336" selection-end-column="31" />
+          <folding>
+            <element signature="e#92#139#0" expanded="true" />
+>>>>>>> 9d890568fa5a3cb9a2c601da49f9eaaa74fda366
           </folding>
         </state>
       </provider>

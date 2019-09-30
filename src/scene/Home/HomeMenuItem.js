@@ -52,7 +52,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     width: screen.width / 3,
-    height: screen.width / 4,
+    height: screen.width / 5,
   },
   icon: {
     width: screen.width / 9,

@@ -4997,6 +4997,13 @@ react-native-atoz-listview@^0.0.7:
   dependencies:
     merge "^1.2.0"
 
+react-native-blur@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.npm.taobao.org/react-native-blur/download/react-native-blur-3.2.2.tgz#5bfb50638d148982c9560436554ed01d77d6d07d"
+  integrity sha1-W/tQY40UiYLJVgQ2VU7QHXfW0H0=
+  dependencies:
+    prop-types "^15.5.10"
+
 react-native-elements@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/react-native-elements/download/react-native-elements-1.2.0.tgz#37f2562ca227d79dcb97ce0d869600f371041318"

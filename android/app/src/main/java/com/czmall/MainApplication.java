@@ -5,8 +5,9 @@ import android.app.Application;
 import com.facebook.react.ReactApplication;
 import com.imagepicker.ImagePickerPackage;
 import org.reactnative.camera.RNCameraPackage;
-import com.bolan9999.SpringScrollViewPackage;
+import com.cmcewen.blurview.BlurViewPackage;
 import com.oblador.vectoricons.VectorIconsPackage;
+import com.bolan9999.SpringScrollViewPackage;
 import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -30,8 +31,9 @@ public class MainApplication extends Application implements ReactApplication {
           new MainReactPackage(),
             new ImagePickerPackage(),
             new RNCameraPackage(),
-            new SpringScrollViewPackage(),
+            new BlurViewPackage(),
             new VectorIconsPackage(),
+            new SpringScrollViewPackage(),
             new RNGestureHandlerPackage()
       );
     }

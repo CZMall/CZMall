@@ -5,7 +5,8 @@ import {AppRegistry} from 'react-native';
 
 import RootScene from './src/RootScene';
 
-export default class CZMall extends PureComponent {
+
+export default class CZMall extends PureComponent<Props, State> {
   render() {
     return (
       <RootScene />

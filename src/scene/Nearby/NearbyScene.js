@@ -38,9 +38,9 @@ class NearbyScene extends PureComponent<Props> {
   static navigationOptions = ({ navigation }: any) => ({
     headerRight: (
       <TouchableOpacity style={styles.searchBar}>
-        <Image source={require('../../img/home/search_icon.png')}
-               style={styles.searchIcon}
-        />
+        {/*<Image source={require('../../img/home/search_icon.png')}*/}
+        {/*       style={styles.searchIcon}*/}
+        {/*/>*/}
         <Paragraph>
           找附近的吃喝玩乐
         </Paragraph>

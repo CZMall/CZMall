@@ -14,10 +14,12 @@ import {
   Image,
   TouchableOpacity,
   StyleSheet,
-  Platform
+  Platform,
+  Dimensions,
+  TextInput,
+  TouchableHighlight
 } from "react-native";
 import {
-  color,
   NavigationItem,
   Separator,
   SpacingView
@@ -26,25 +28,35 @@ import {
   commonStyle
 } from '../../widget/commonStyle'
 
-import { drugcategorys } from "./DataSource";
+import { drugCategorys } from "./DataSource";
 import {LargeList} from "react-native-largelist-v3";
 import LocalImg from '../../common/commonImages';
+import {Paragraph} from "../../widget/Text";
 
-const leftData = [{items: drugcategorys}];
+const leftData = [{items: drugCategorys}];
+let {width, height} = Dimensions.get('window')
 
 class ClassificationScene extends PureComponent<Props, State> {
 
   static navigationOptions = ({ navigation }: any) => ({
-    headerTitle: '分类',
-    headerStyle: { backgroundColor: commonStyle.white },
-    headerRight: (
-        <NavigationItem
-            icon={LocalImg.navigation_item_share_icon}
-            onPress={() => {
+    headerStyle: {
+      backgroundColor: commonStyle.blue
+    },
 
-            }}
-        />
+    headerTitle: (
+        <View style={styles.searchBoxView}>
+          <Image source={LocalImg.search_icon}
+                 style={styles.searchIcon}
+          />
+          <TextInput
+              keyboardType='web-search'
+              placeholder='搜索药品名称，满68元包邮'
+              style={styles.inputText}
+              underlineColorAndroid='transparent' />
+          <Image source={LocalImg.voice_icon} style={styles.voiceIcon}/>
+        </View>
     ),
+
   })
   _listRef: LargeList;
   indexes: LargeList;
@@ -52,12 +64,16 @@ class ClassificationScene extends PureComponent<Props, State> {
 
   constructor(props) {
     super(props);
-    for (let s = 0; s < drugcategorys.length; ++s) {
+    for (let s = 0; s < drugCategorys.length; ++s) {
       const refs = [];
-      for (let r = 0; r < drugcategorys[s].items.length; ++r) {
+      for (let r = 0; r < drugCategorys[s].items.length; ++r) {
         refs.push(React.createRef());
       }
       this._buttonRefs.push(refs);
+    }
+
+    this.state = { //状态机变量声明
+      indexCell: 0,
     }
   }
   /*componentDidMount(){
@@ -72,16 +88,16 @@ class ClassificationScene extends PureComponent<Props, State> {
               style={styles.lc}
               ref={ref => (this.indexes = ref)}
               showsVerticalScrollIndicator={false}
-              bounces={false}
+              // bounces={false}
               data={leftData}
-              heightForIndexPath={() => 60}
+              heightForIndexPath={() => 50}
               renderIndexPath={this.renderIndexes}
           />
           <LargeList
               ref={ref => (this._listRef = ref)}
               style={styles.rc}
-              data={drugcategorys}
-              heightForSection={() => 36}
+              data={drugCategorys}
+              heightForSection={() => 100}
               renderSection={this.renderSection}
               heightForIndexPath={() => 96}
               renderIndexPath={this.renderItem}
@@ -93,29 +109,41 @@ class ClassificationScene extends PureComponent<Props, State> {
 
   renderIndexes = ({ section: section, row: row }) => {
     const drugCategory = leftData[section].items[row];
+
     return (
-        <TouchableOpacity
+        <TouchableHighlight
             ref={this._buttonRefs[section][row]}
             style={styles.indexes}
+            underlayColor = {commonStyle.gray}
             onPress={() => {
               this._listRef
-                  .scrollToIndexPath({ section: row, row: -1 }, false)
+                  .scrollToIndexPath({ section: row, row: -1 }, true)
                   .then();
             }}
         >
-          <Text style={{ fontSize: 15}} fontWeight={300}>
+          <Text style={{
+            fontSize: 14,
+            color: commonStyle.blue
+          }} fontWeight={300}>
             {drugCategory.header}
           </Text>
-          <View style={styles.line} />
-        </TouchableOpacity>
+          {/*<View style={styles.line} />*/}
+        </TouchableHighlight>
     );
   };
 
   renderSection = (section: number) => {
-    const sectionData = drugcategorys[section];
+    const sectionData = drugCategorys[section];
     return (
         <View style={styles.section}>
-          <Text style={styles.sectionText} fontWeight={300}>
+          <Image source={LocalImg.home_bg_icon}
+                 style={{
+                   height: 62,
+                   width: 272,
+                   marginRight: 15
+                 }} />
+          <Text style={styles.sectionText}
+                fontWeight={300}>
             {sectionData.header}
           </Text>
         </View>
@@ -123,78 +151,76 @@ class ClassificationScene extends PureComponent<Props, State> {
   };
 
   renderItem = ({ section: section, row: row }) => {
-    let drugCategory = drugcategorys[section].items[row];
+    let drugCategory = drugCategorys[section].items[row];
     return (
         <View>
           <View style={styles.renderItemCell}>
-
             <View style={{
-              flex: 1,
-              marginLeft: 20,
-              marginTop: 10
+              backgroundColor: commonStyle.white,
+              width: (width-14)/4,
+              justifyContent: 'flex-end',
+              alignItems: 'center',
             }}>
-              <Text style={{ fontSize: 15 }} fontWeight={300}>
+              <Image source={LocalImg.drugs_icon}
+                     style={{
+                       width: 50,
+                       height: 50,
+                     }}
+              />
+              <Text style={{
+                textAlign: 'center',
+                fontSize: 12,
+                margin: 5,
+              }}>
                 {drugCategory.title}
               </Text>
+            </View>
+
+            <View style={{
+              backgroundColor: commonStyle.white,
+              width: (width-14)/4,
+              justifyContent: 'flex-end',
+              alignItems: 'center',
+            }}>
+              <Image source={LocalImg.drugs_icon}
+                     style={{
+                       width: 50,
+                       height: 50,
+                     }}
+              />
               <Text style={{
-                fontSize: 14,
-                color: commonStyle.categoryDrankGray
+                textAlign: 'center',
+                fontSize: 12,
+                margin: 5,
               }}>
-                {drugCategory.subtitle}
+                {drugCategory.title}
               </Text>
-              <View style={{ flexDirection: "row" }}>
-                <Text style={{
-                  fontSize: 14,
-                  color: commonStyle.categoryDrankGray
-                }}>
-                  {drugCategory.sales}
-                </Text>
-                <Text style={{
-                  fontSize: 14,
-                  color: commonStyle.categoryDrankGray,
-                  marginLeft: 10
-                }}>
-                  {drugCategory.praise}
-                </Text>
-              </View>
-              <View
-                  style={{
-                    flexDirection: "row",
-                    justifyContent: "space-between"
-                  }}
-              >
-                <Text style={{
-                  fontSize: 16,
-                  color: commonStyle.red
-                }}>
-                  {drugCategory.prise}
-                </Text>
-                <TouchableOpacity
-                    style={{
-                      backgroundColor: "rgb(232,191,106)",
-                      borderRadius: 5,
-                      marginRight: 16
-                    }}
-                    onPress={() => this.onBuy(drugCategory)}
-                >
-                  <Text style={{
-                    fontSize: 16,
-                    marginHorizontal: 5
-                  }}>
-                    购买
-                  </Text>
-                </TouchableOpacity>
-              </View>
+            </View>
+            <View style={{
+              backgroundColor: commonStyle.white,
+              width: (width-14)/4,
+              justifyContent: 'flex-end',
+              alignItems: 'center',
+            }}>
+              <Image source={LocalImg.drugs_icon}
+                     style={{
+                       width: 50,
+                       height: 50,
+                     }}
+              />
+              <Text style={{
+                textAlign: 'center',
+                fontSize: 12,
+                margin: 5,
+              }}>
+                {drugCategory.title}
+              </Text>
             </View>
           </View>
-          {row < drugcategorys[section].items.length - 1 &&
+          {row < drugCategorys[section].items.length - 1 &&
           <View style={styles.rowLine} />}
         </View>
     );
-  };
-
-  onBuy = () => {
-    console.log("buy");
   };
 
 }
@@ -205,6 +231,38 @@ const styles = StyleSheet.create({
     flex: 1,
     flexDirection: "row"
   },
+  searchBoxView: {
+    height: 30,
+    flexDirection: 'row',
+    flex: 1,
+    borderRadius: 30,
+    backgroundColor: commonStyle.white,
+    alignItems: 'center',
+    marginLeft: 48,
+    marginRight: 52,
+    justifyContent: 'space-between'
+  },
+  searchIcon: {
+    marginLeft: 6,
+    marginRight: 6,
+    width: 16.7,
+    height: 16.7,
+    resizeMode: 'stretch'
+  },
+  inputText: {
+    flex: 1,
+    backgroundColor: 'transparent',
+    fontSize: 14,
+    paddingTop: 10,
+    paddingBottom: 10,
+  },
+  voiceIcon: {
+    marginLeft: 5,
+    marginRight: 10,
+    width: 15,
+    height: 20,
+    resizeMode: 'stretch'
+  },
   lc: {
     flex: 1
   },
@@ -214,7 +272,7 @@ const styles = StyleSheet.create({
     flexGrow: 3,
   },
   indexes: {
-    backgroundColor: commonStyle.categoryGray,
+    backgroundColor: commonStyle.white,
     justifyContent: "center",
     alignItems: "center"
   },
@@ -224,18 +282,21 @@ const styles = StyleSheet.create({
     right: 0,
     bottom: 0,
     height: 1,
-    backgroundColor: commonStyle.categoryGray
+    backgroundColor: commonStyle.red
   },
   //头标题
   section: {
     flex: 1,
+    marginRight: 10,
     backgroundColor: commonStyle.categoryGray,
-    justifyContent: "center"
+    justifyContent: 'space-between'
+
   },
   //cell文字位置
   sectionText: {
-    marginLeft: 10,
-    fontSize: 15
+    margin: 10,
+    fontSize: 13,
+    alignItems:'center'
   },
   rowLine: {
     height: 1,

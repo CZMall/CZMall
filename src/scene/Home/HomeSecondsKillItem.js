@@ -11,8 +11,6 @@ import React, {
     PureComponent
 } from 'react';
 import {
-    View,
-    Text,
     StyleSheet,
     Image,
     TouchableOpacity
@@ -23,8 +21,7 @@ import {
     Paragraph
 } from '../../widget/Text';
 import {
-    screen,
-    system
+    screen
 } from '../../common';
 import {
     commonStyle
