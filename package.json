@@ -10,7 +10,7 @@
     "antd-mobile-rn": "^2.3.3",
     "prop-types": "^15.7.2",
     "react": "16.8.3",
-    "react-native": "0.59.8",
+    "react-native": "0.62.3",
     "react-native-atoz-listview": "^0.0.7",
     "react-native-camera": "^2.9.0",
     "react-native-blur": "^3.2.2",
